@@ -85,6 +85,12 @@ class FeedViewController: UIViewController {
             self?.refreshControl.endRefreshing()
         }
     }
+    
+    @IBAction func unwindToFeedView(_ segue: UIStoryboardSegue) {
+        // This is the exit point for the unwind segue.
+        print("Returned to FeedViewController")
+    }
+    
 
     private func showConfirmLogoutAlert() {
         let alertController = UIAlertController(title: "Log out of \(User.current?.username ?? "current account")?", message: nil, preferredStyle: .alert)

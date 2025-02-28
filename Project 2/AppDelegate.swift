@@ -9,6 +9,8 @@ import UIKit
 
 // TODO: Pt 1 - Import Parse Swift
 import ParseSwift
+import UserNotifications
+
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -44,6 +46,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 //                assertionFailure("Error saving: \(error)")
 //            }
 //        }
+        
+        NotificationManager.shared.requestNotificationPermission()
         Thread.sleep(forTimeInterval: 2.0) // Adjust the delay time as needed
         return true
     }

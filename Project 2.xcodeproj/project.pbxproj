@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		67038B142D718826005B4F39 /* CommentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038B132D718826005B4F39 /* CommentViewController.swift */; };
+		67038B182D724B7F005B4F39 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038B172D724B7F005B4F39 /* Comment.swift */; };
+		67038B1A2D724E4D005B4F39 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038B192D724E4D005B4F39 /* CommentCell.swift */; };
+		67038B1C2D7271F4005B4F39 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67038B1B2D7271F4005B4F39 /* NotificationManager.swift */; };
 		CB13E51F2913A16C008F45BB /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E51E2913A16C008F45BB /* PostCell.swift */; };
 		CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */; };
 		CB69974E2910F705007EDA6B /* Filmotype-Jade.otf in Resources */ = {isa = PBXBuildFile; fileRef = CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */; };
@@ -27,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		67038B132D718826005B4F39 /* CommentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentViewController.swift; sourceTree = "<group>"; };
+		67038B172D724B7F005B4F39 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		67038B192D724E4D005B4F39 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		67038B1B2D7271F4005B4F39 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
 		CB13E51E2913A16C008F45BB /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		CB13E5202913B10B008F45BB /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
 		CB69974C2910F704007EDA6B /* Filmotype-Jade.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Filmotype-Jade.otf"; sourceTree = "<group>"; };
@@ -81,6 +89,8 @@
 			children = (
 				CB6997522911354B007EDA6B /* FeedViewController.swift */,
 				CB13E51E2913A16C008F45BB /* PostCell.swift */,
+				67038B132D718826005B4F39 /* CommentViewController.swift */,
+				67038B192D724E4D005B4F39 /* CommentCell.swift */,
 			);
 			path = Feed;
 			sourceTree = "<group>";
@@ -133,6 +143,7 @@
 				CB73D39F290E3B4C00C12538 /* LaunchScreen.storyboard */,
 				CB73D3A2290E3B4C00C12538 /* Info.plist */,
 				CB6997472910E7E3007EDA6B /* Fonts */,
+				67038B1B2D7271F4005B4F39 /* NotificationManager.swift */,
 			);
 			path = "Project 2";
 			sourceTree = "<group>";
@@ -142,6 +153,7 @@
 			children = (
 				CB7896FC29371C3C00635932 /* User.swift */,
 				CB7896FE29371C4900635932 /* Post.swift */,
+				67038B172D724B7F005B4F39 /* Comment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -234,9 +246,13 @@
 				CB6997532911354B007EDA6B /* FeedViewController.swift in Sources */,
 				CB7896FD29371C3C00635932 /* User.swift in Sources */,
 				CB6997512911044D007EDA6B /* SignUpViewController.swift in Sources */,
+				67038B182D724B7F005B4F39 /* Comment.swift in Sources */,
+				67038B142D718826005B4F39 /* CommentViewController.swift in Sources */,
 				CB13E5212913B10B008F45BB /* DateFormatter+Extensions.swift in Sources */,
 				CB73D397290E3B4A00C12538 /* SceneDelegate.swift in Sources */,
+				67038B1C2D7271F4005B4F39 /* NotificationManager.swift in Sources */,
 				CB7896FF29371C4900635932 /* Post.swift in Sources */,
+				67038B1A2D724E4D005B4F39 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
