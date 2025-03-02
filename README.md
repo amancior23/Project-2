@@ -35,7 +35,7 @@ The following **optional** features are implemented:
 
 
 
-#PT 2 of Project 2
+# PT 2 of Project 2
 
 Time spent: 4 hours spent in total
 
