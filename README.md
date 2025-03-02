@@ -33,6 +33,40 @@ The following **optional** features are implemented:
     </a>
   </div>
 
+
+
+PT 2 of Project 2
+
+Time spent: 4 hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+- [x] User can launch camera to take photo instead of photo library
+  - [x] Users without iPhones to demo this feature can manually add unique photos to their simulator's Photos app
+- [x] Users are not able to see other users’ photos until they upload their own.
+- [x] Users can intereact with posts via comments, comments will have user data such as username and name
+- [ ] Posts have a time and location attached to them
+- [x] Users are not able to see other photos until they post their own (within 24 hours)	
+ 
+The following **optional** features are implemented:
+
+- [x] User receive notifcation when it is time to post
+
+The following **additional** features are implemented:
+
+- [x] I added the time of post for the comment section.
+
+## Video Walkthrough
+
+<div>
+    <a href="https://www.loom.com/share/1bfe14181cb44e3193dabfbe47c64271">
+      <img style="max-width:300px;" src="https://cdn.loom.com/sessions/thumbnails/1bfe14181cb44e3193dabfbe47c64271-ce38ab8391c101da-full-play.gif">
+    </a>
+  </div>
+
+## Notes
 ## License
 
     Copyright [yyyy] [name of copyright owner]
